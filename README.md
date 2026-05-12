@@ -2,7 +2,7 @@
 
 Working prototype for **EOG-RFQ-26-03: Website Domain Acquisition, Static Website Development, and Complementary Graphic Materials** submitted by Quest Corporation of America.
 
-**Live demo:** [View Site](https://eog.launchthat.com) (placeholder URL)
+**Live demo:** [https://eog.qcaclients.com](https://eog.qcaclients.com)
 
 ---
 

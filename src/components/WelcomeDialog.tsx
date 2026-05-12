@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 
 const REPO_URL = "https://github.com/launchthatbrand/eog#deployment-procedure";
+const SITE_URL = "https://eog.qcaclients.com";
 
 export const WelcomeDialog = () => {
   const [open, setOpen] = useState(false);
