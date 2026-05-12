@@ -6,6 +6,7 @@ import { Header } from "~/components/Header";
 import { Footer } from "~/components/Footer";
 import { SkipToContent } from "~/components/SkipToContent";
 import { DemoBanner } from "~/components/DemoBanner";
+import { WelcomeDialog } from "~/components/WelcomeDialog";
 import { siteConfig } from "~/lib/metadata";
 
 export const metadata: Metadata = {
@@ -34,6 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={geist.variable}>
       <body className="flex min-h-screen flex-col bg-surface text-text antialiased">
+        <WelcomeDialog />
         <SkipToContent />
         <DemoBanner />
         <Header />
