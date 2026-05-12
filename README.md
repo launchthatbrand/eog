@@ -16,6 +16,10 @@ A 6-page static website built for the Executive Office of the Governor, demonstr
 - Static HTML/CSS/JS output — no server-side runtime required
 - Git-based content update workflow via markdown files
 
+## Architecture
+
+![Architecture Overview](public/images/architecture-overview.png)
+
 ## Tech Stack
 
 | Layer | Technology |
@@ -38,6 +42,8 @@ A 6-page static website built for the Executive Office of the Governor, demonstr
 ---
 
 ## Deployment Procedure
+
+![Deployment Workflow](public/images/deployment-workflow.png)
 
 ### Prerequisites
 
@@ -106,6 +112,8 @@ After deployment:
 ---
 
 ## Content Updates
+
+![Content Update Workflow](public/images/content-update-workflow.png)
 
 Content lives in `/content/*.md` as markdown files with YAML frontmatter:
 
