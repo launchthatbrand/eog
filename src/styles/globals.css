@@ -1,6 +1,27 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 @theme {
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --color-primary: #002868;
+  --color-primary-light: #003d99;
+  --color-primary-dark: #001a45;
+  --color-accent: #BF8B2E;
+  --color-accent-light: #D4A84B;
+  --color-surface: #FFFFFF;
+  --color-surface-muted: #F5F7FA;
+  --color-text: #1A1A2E;
+  --color-text-muted: #4A5568;
+  --color-border: #E2E8F0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
